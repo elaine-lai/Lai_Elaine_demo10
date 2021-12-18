@@ -1,1 +1,17 @@
+.bg-info {
+    background-color: #c5ebc3 !important;
+  }
 
+.btn-info {
+    color: #000;
+    background-color: #a790a5;
+    border-color: #b7c8b5;
+}
+
+.container{
+    color: #a790a5;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+}

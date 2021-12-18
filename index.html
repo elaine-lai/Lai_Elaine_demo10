@@ -6,9 +6,6 @@
     <title>My BCIT Project</title>
     <meta name="comp1800 template" content="my bcit Hiking App project">
 
-    <!-- Optional styles and scripts of your own -->
-    <link type="text/css" href="styles/my_style.css">
-
     <!-- Bootstrap FirebaseUI CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -22,8 +19,15 @@
     <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
 
     <!-- Link to the api keys for your firebase project -->
-    <script src="/scripts/firebaseAPI_TEAM99.js"></script>
+    <script src="./scripts/firebaseAPI_TEAM99.js"></script>
 
+    <!-- Optional styles and scripts of your own -->
+    <link rel="stylesheet" href="./styles/my_style.css">
+
+    <!--diff font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,7 +38,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Elmo's Coffee</a>
+            <a class="navbar-brand" href="#">Elaine's Coffee</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -64,10 +68,18 @@
 
 
     <div class="container">
-        <h1>Index.html file</h1>
-        <h2>Let's Log in </h2>
-        <a href="login.html" class="btn btn-info" role="button">Log in</a>
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">I can't wait until after finals and Christmas!!</p>
+            <hr class="my-4">
+            <p>Study, eat, sleep - repeat!</p>
+            <p class="lead">
+                <a href="login.html" class="btn btn-info" role="button">Log in</a>
+            </p>
+          </div>
     </div>
+
+    
     <!--------------------------------------------------------------------->
     <!-- JS files: Your own JavaScript functions included here    -->
     <!--------------------------------------------------------------------->
